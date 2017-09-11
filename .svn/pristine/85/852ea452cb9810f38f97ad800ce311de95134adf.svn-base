@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          <meta name="keywords" content="APP开发,APP外包,APP外包开发,北京,北京APP外包,APP开发公司,Android外包开发,
+    微信网页二次开发,微信公众号二次开发,iOS外包开发,iphone开发外包,APP定制开发,APP开发商,微信开发,微信网页开发,
+    H5开发,官网开发,商城开发,微信公众号开发">
+    <meta name="description" content="北京惠发科技有限公司成立于2015年，坐落于北京798艺术园区,拥有强大的技术开发和销售团队，
+    目前人数30人左右，专注于APP定制开发、微信应用开发、手机移动网站建设、高端网站建设等等，为客户提供优质的体验和解决方案。">
+    <title>云采集</title>
+    <link rel="stylesheet" href="../common/aui.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/caipiao.css">
+</head>
+<body>
+<header class="company-header">
+    <div class="company-logo">
+        <img src="../img/logo.png" alt="" class="company-logo-img">
+        <div class="company-logo-text">
+            <p>BEIJING HUIFA KEJI</p>
+            <p>北京惠发科技</p>
+        </div>
+    </div>
+    <div class="company-icon">
+        <i class="aui-iconfont aui-icon-menu"></i>
+    </div>
+</header>
+<section class="company-nav-box">
+    <ul class="company-nav">
+        <li class="company-nav-list">
+            <a href="index.html" class="display-box flex-between nav-height ">
+                <span>首页</span>
+                <span class="company-list-icon has-nav down"></span>
+            </a>
+        </li>
+        <!--<li class="company-nav-list">
+            <a href="javascript:" class="display-box flex-between nav-height ">
+                <span>关于我们</span>
+                <span class="company-list-icon  down"></span>
+            </a>
+        </li>-->
+        <li class="company-nav-list ">
+            <a href="javascript:" class="has-nav display-box flex-between nav-height ">
+                <span>经典案例</span>
+                <span class="company-list-icon down"></span>
+            </a>
+            <ul class="company-menu">
+                <li class="company-menu-list">
+                    <a href="dingzhi.html" class="display-box flex-between nav-height">
+                        <span>APP定制开发</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+                <li class="company-menu-list">
+                    <a href="xiaochengxu.html" class="display-box flex-between nav-height">
+                        <span>微信小程序</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+                <li class="company-menu-list">
+                    <a href="javascript:;" class="display-box flex-between nav-height">
+                        <span>网站定制开发</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <!--<li class="company-nav-list ">
+            <a href="javascript:" class="has-nav display-box flex-between nav-height">
+                <span>主要业务</span>
+                <span class="company-list-icon down "></span>
+            </a>
+            <ul class="company-menu">
+                <li class="company-menu-list">
+                    <a href="javascript:;" class="display-box flex-between nav-height">
+                        <span>网站建设</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+                <li class="company-menu-list">
+                    <a href="javascript:;" class="display-box flex-between nav-height">
+                        <span>微信小程序</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+                <li class="company-menu-list">
+                    <a href="javascript:;" class="display-box flex-between nav-height">
+                        <span>APP开发</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+                <li class="company-menu-list">
+                    <a href="javascript:;" class="display-box flex-between nav-height">
+                        <span>行业软件开发</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+            </ul>
+        </li>-->
+        <li class="company-nav-list">
+            <a href="javascript:" class="has-nav display-box flex-between nav-height ">
+                <span>大数据</span>
+                <span class="company-list-icon down"></span>
+            </a>
+            <ul class="company-menu">
+                <li class="company-menu-list">
+                    <a href="znsousuo.html" class="display-box flex-between nav-height">
+                        <span>智能搜索</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+                <li class="company-menu-list">
+                    <a href="zryuyan.html" class=" display-box flex-between nav-height">
+                        <span>自然语言</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+                <li class="company-menu-list">
+                    <a href="javascript:;" class=" display-box flex-between nav-height">
+                        <span>云采集</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+                <li class="company-menu-list">
+                    <a href="yuntuijian.html" class=" display-box flex-between nav-height">
+                        <span>云推荐</span>
+                        <span class="company-list-icon down"></span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <!--<li class="company-nav-list">
+            <a href="javascript:" class="display-box flex-between nav-height ">
+                <span>联系我们</span>
+                <span class="company-list-icon  down"></span>
+            </a>
+        </li>-->
+    </ul>
+</section>
+
+<section class="company-module">
+    <div class="company-module-line"></div>
+    <div class="company-module-englise">MAIN BUSINESS</div>
+    <div class="company-module-name">云采集</div>
+</section>
+<section class="company-demo-img">
+    <img src="../img/yun1_1.png" alt="">
+    <img src="../img/yun1_2.png" alt="">
+    <img src="../img/yun1_3.png" alt="">
+    <img src="../img/yun1_4.png" alt="">
+    <img src="../img/yun1_5.png" alt="">
+</section>
+
+
+<section class="compant-tel">
+    <a href="tel:17701241710">17701241710</a>
+</section>
+
+<footer class="company-footer">
+    <p>Copyright@2017 HuiFaKeji. All Rights Reserved</p>
+    <p class="footer-logo">
+        <span>北京惠发科技有限公司</span>
+        <img src="../img/logo.png" alt="">
+    </p>
+    <p>京ICP备15024353号-1</p>
+</footer>
+<script src="../common/jquery-3.0.0.min.js"></script>
+<script src="../common/aui-slide.js"></script>
+<script src="../js/index.js"></script>
+<script>
+    var slide = new auiSlide({
+        container:document.getElementById("aui-slide"),
+        // "width":300,
+        "height":180,
+        "speed":300,
+        "pageShow":true,
+        "pageStyle":'dot',
+        "loop":true,
+        'dotPosition':'center',
+        'autoPlay':2000
+    });
+    function currentFun(index) {
+        console.log(index);
+    }
+
+</script>
+
+</body>
+</html>

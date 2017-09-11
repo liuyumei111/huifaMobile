@@ -1,0 +1,92 @@
+
+.company-info{
+	width: 100%;
+	height: 11.9rem;
+	padding: 0 0.95rem;
+	margin-top: 1.25rem;
+}
+.company-info>img{
+	width: 100%;
+	height: 100%;
+}
+.company-detail{
+	width: 100%;
+	padding: 0 0.95rem;
+}
+.company-name{
+	font-size: 0.8rem;
+	color: #4e4e4e;
+	height: 2.5rem;
+	line-height: 2.5rem;
+}
+.company-line{
+	width: 2.5rem;
+	height: 0.15rem;
+	background-color: #58c0ca;
+}
+.company-text-margin{
+	margin: 1.0rem 0;
+	font-size: 0.7rem;
+	color: #4e4e4e;
+}
+/* 主营业务等模块样式 */
+.company-module{
+	width: 100%;
+	height: 4.4rem;   
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    background-color: #5a5959;
+}
+.company-module-line{
+	width: 3.0rem;
+	height: 0.1rem;
+	background-color: #ccc;
+}
+.company-module-englise{
+	font-size: 0.6rem; 
+	color: #9a9999;
+	width: 100%;
+	height: 2.0rem;
+	line-height: 2.0rem;
+	text-align: center;
+	font-weight: bold;
+
+}
+.company-module-name{
+	font-size: 0.9rem;
+	color: #ebebeb;
+}
+
+/* 案例展示 */
+.company-demo-content{
+	width: 100%;
+	padding: 0 1.75rem;
+}
+.company-demo-img{
+	width: 17.0rem;
+	height: 12.0rem;
+	margin: 1rem auto;
+}
+.company-demo-name{
+	width: 17rem;
+	font-size: 0.75rem;
+	margin: 0 auto;
+	color: #060606;
+	font-weight: bold;
+}
+.company-demo-line{
+	margin-top: 0.75rem;
+	/* margin-left: 1.75rem; */
+	width: 1.25rem;
+	height: 0.1rem;
+	background-color: #58c0ca;
+}
+
+
+
+
+
+

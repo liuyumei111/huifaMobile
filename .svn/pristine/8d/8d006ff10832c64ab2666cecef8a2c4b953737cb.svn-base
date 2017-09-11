@@ -1,0 +1,30 @@
+/**
+ * Created by Administrator on 2017/8/24.
+ */
+
+$(document).ready(function () {
+
+    $('.company-icon').bind('click',function () {
+        $('.company-nav-box').toggle();
+    });
+
+    $('.has-nav').click(function () {
+        var that=$(this);
+        var arrow=that.find('.company-list-icon');
+        if (arrow.hasClass('down')){
+            arrow.removeClass('down').addClass('up');
+        }else if (arrow.hasClass('up')){
+            arrow.removeClass('up').addClass('down');
+        }
+        var childNav=that.siblings('.company-menu');
+        childNav.stop().slideToggle();
+        if(childNav.css('display')=='none' ){
+        }else {
+            arrow.parent('.has-nav').find('span:eq(0)').addClass('blue');
+            arrow.parent('.has-nav').removeClass('nav-height');
+            arrow.parent('.has-nav').addClass('nav-heightA');
+            arrow.removeClass('company-list-icon');
+            arrow.addClass('company-list-iconA');
+        }
+            });
+});

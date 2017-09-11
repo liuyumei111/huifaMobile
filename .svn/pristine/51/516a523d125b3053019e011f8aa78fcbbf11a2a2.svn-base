@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>惠发科技</title>
+    <meta charset="utf-8" />
+    <!--引入reset.css 重置样式表-->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <!--引入主css样式文件-->
+    <link href="styles/index.css" rel="stylesheet" />
+    <!--引入swiper.css-->
+    <link href="styles/swiper.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!--头部 nav banner tabs-->
+    <section class="header">
+        <div class="nav">
+            <img class="logo" src="images/logo.png" alt="" />
+            <div class="menu"></div>
+            <div class="menu-nav">
+                <div class="menu-header">
+                    <img src="images/logo-menu.png" />
+                    <div class="close">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="menu-body" id="accordion">
+                    <ul class="menu-nav-list">
+                        <li>
+                            <span class="title">首页<i></i></span>
+                            <ul class="menu-nav-list-item">
+                                <li>首页内容1</li>
+                                <li>首页内容1</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="title">大数据<i></i></span>
+                            <ul class="menu-nav-list-item">
+                                <li>首页内容1</li>
+                                <li>首页内容1</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="title">经典案例<i></i></span>
+                            <ul class="menu-nav-list-item">
+                                <li>首页内容1</li>
+                                <li>首页内容1</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner swiper-banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/banner1.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner1.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner1.png" />
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--主体内容-->
+    <section class="main">
+        <div id="tabs">
+            <div class="tabs">
+                <div class="tab tab-active">
+                    <p>HUIFA</p>
+                    <span>品牌</span>
+                </div>
+                <div class="tab">
+                    <p>HUIFA</p>
+                    <span>服务</span>
+                </div>
+                <div class="tab">
+                    <p>HUIFA</p>
+                    <span>案例</span>
+                </div>
+            </div>
+            <div class="tabCont">
+                <div>
+                    <div class="case-mian">
+                        <h2>客户为什么选择我们</h2>
+                        <h3>WHY CHOOSE US?</h3>
+                        <p>我们同客户风雨相随，同舟共济，携手共进</p>
+                        <p>我们有敏锐的洞察力，持续的创新力，国际化的视野，以及高效的执行力，为客户创造品牌的力量 </p>
+                        <ol>
+                            <li><span class="yuandian"></span>我们崇尚专业至上</li>
+                            <li><span class="yuandian"></span>始终坚持原创设计，坚持为品牌定制服务，拒绝平庸和流水线设计</li>
+                            <li><span class="yuandian"></span>团队人员来自过内顶尖艺术院校，身经百战，具有丰厚经验</li>
+                            <li><span class="yuandian"></span>我们不断创新，在感性与理想之间跳跃，因为我们专注，所以我们专业</li>
+                        </ol>
+                        <img src="images/huifa.png" alt="">
+
+
+                    </div>
+                </div>
+                <div>
+                    <div class="service-mian">
+                        <h2>惠发为您提供最优的服务</h2>
+                        <div class="main-item main-item-1">
+                            <img src="images/dingzhi.png" />
+                            <p>原生开发，打造独一无二的产品</p>
+                            <a href="">点击查看</a>
+                        </div>
+                        <div class="main-item main-item-2">
+                            <img src="images/jianshe.png" />
+                            <p>原生开发，打造独一无二的产品</p>
+                            <a href="">点击查看</a>
+                        </div>
+                        <div class="main-item main-item-3">
+                            <img src="images/weixin.png" />
+                            <p>原生开发，打造独一无二的产品</p>
+                            <a href="">点击查看</a>
+                        </div>
+                        <div class="main-item main-item-4">
+                            <img src="images/hagnye.png" />
+                            <p>原生开发，打造独一无二的产品</p>
+                            <a href="">点击查看</a>
+                        </div>
+                        <div class="main-item main-item-3">
+                            <img src="images/weixin.png" />
+                            <p>原生开发，打造独一无二的产品</p>
+                            <a href="">点击查看</a>
+                        </div>
+                        <div class="main-item main-item-4">
+                            <img src="images/hagnye.png" />
+                            <p>原生开发，打造独一无二的产品</p>
+                            <a href="">点击查看</a>
+                        </div>
+                        <div class="main-item main-item-3">
+                            <img src="images/weixin.png" />
+                            <p>原生开发，打造独一无二的产品</p>
+                            <a href="">点击查看</a>
+                        </div>
+                        <div class="main-item main-item-4">
+                            <img src="images/hagnye.png" />
+                            <p>原生开发，打造独一无二的产品</p>
+                            <a href="">点击查看</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="case">
+                        <!--<h2>APP展示</h2>-->
+                        <div class="swiper-cases">
+                            <h2>APP展示</h2>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-cases">
+                            <h2>APP展示</h2>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-cases">
+                            <h2>APP展示</h2>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-cases">
+                            <h2>APP展示</h2>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                                <div class="swiper-slide caseCon">
+                                    <img src="images/case1.png" />
+                                    <p class="name">车友圈-引擎APP</p>
+                                    <p>全年交易量达到4A</p>
+                                    <p>安卓市场排名12位</p>
+                                    <p>3个月内用户从200迅速上身到3万</p>
+                                    <a href="">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--底部版权-->
+    <section class="footer">
+        <ul class="footer-nav">
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">在线提交</a></li>
+            <li><a href="#">公司地址</a></li>
+            <li><a href="#">法律信息</a></li>
+        </ul>
+        <div class="footer-copy">
+            copyright 2012-2016 .北京惠发科技有限公司 版权所有<br />
+            京ICP备15024353号-1
+        </div>
+    </section>
+
+    <!--引入相关Js文件-->
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script src="scripts/jQuery.PlugIn.js"></script>
+    <script src="scripts/swiper.min.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

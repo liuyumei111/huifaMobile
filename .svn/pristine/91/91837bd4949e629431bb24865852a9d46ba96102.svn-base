@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <style>
+        .tabs {
+            display: flex;
+            width: 200px;
+        }
+
+            .tabs > div {
+                flex: 1;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                border: 1px solid red;
+            }
+
+        .tabcon {
+            width: 200px;
+            height: 50px;
+            border: 1px solid blue;
+        }
+
+            .tabcon > div {
+                display: none;
+            }
+
+
+
+        .tabs1 {
+            display: flex;
+            width: 200px;
+        }
+
+            .tabs1 > div {
+                flex: 1;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                border: 1px solid red;
+            }
+
+        .tabcon1 {
+            width: 200px;
+            height: 50px;
+            border: 1px solid blue;
+        }
+
+            .tabcon1 > div {
+                display: none;
+            }
+
+
+        .active {
+            background: yellow;
+        }
+
+        .active1 {
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="tabs">
+        <div class="tabs">
+            <div>选项一</div>
+            <div>选项二</div>
+            <div>选项三</div>
+            <div>选项四</div>
+        </div>
+        <div class="tabcon">
+            <div>选项一内容</div>
+            <div>选项二内容</div>
+            <div>选项三内容</div>
+            <div>选项四内容</div>
+        </div>
+    </div>
+
+    <div id="tabs1">
+        <div class="tabs">
+            <div>选项一</div>
+            <div>选项二</div>
+            <div>选项三</div>
+            <div>选项四</div>
+        </div>
+        <div class="tabCont">
+            <div>选项一内容</div>
+            <div>选项二内容</div>
+            <div>选项三内容</div>
+            <div>选项四内容</div>
+        </div>
+    </div>
+
+    <div id="tabs2">
+        <div class="tabs">
+            <div>选项一</div>
+            <div>选项二</div>
+            <div>选项三</div>
+            <div>选项四</div>
+        </div>
+        <div class="tabcon">
+            <div>选项一内容</div>
+            <div>选项二内容</div>
+            <div>选项三内容</div>
+            <div>选项四内容</div>
+        </div>
+    </div>
+
+    <script src="../scripts/jquery-2.1.1.min.js"></script>
+    <script>
+
+        $.fn.newTabs = function tab(options) {
+            var id = $(this); //这里的this就是当前调用此方法的对象  $("#tabs")
+            var items = id.find(".tabcon div").eq(options.index).show().end();
+            id.find(".tabs div").eq(options.index).addClass(options.activeClass).end().on('tap', function () {
+                var _this = $(this);
+                _this.addClass(options.activeClass).siblings().removeClass(options.activeClass);
+                var index = _this.index();
+                items.hide().eq(index).show();
+            })
+        }
+
+        //function tab(id, options) {
+        //    var id = $(id);
+        //    var items = id.find(".tabcon div").eq(options.index).show().end();
+        //    id.find(".tabs div").eq(options.index).addClass(options.activeClass).end().on('tap', function () {
+        //        var _this = $(this);
+        //        _this.addClass(options.activeClass).siblings().removeClass(options.activeClass);
+        //        var index = _this.index();
+        //        items.hide().eq(index).show();
+        //    })
+        //}
+
+
+        //tab("active", 0, '.tabs', '.tabcon')
+        //tab("active1", 3, '.tabs1', '.tabcon1')
+
+
+        //tab("active", 0, "#tabs");
+        //tab("active", 1, "#tabs1");
+        //tab("active", 2, "#tabs2");
+
+        //tab("#tabs", {
+        //    activeClass: "active",
+        //    index:0
+        //})
+        //tab("#tabs1", {
+        //    activeClass: "active1",
+        //    index: 1
+        //})
+
+        $("#tabs").newTabs({
+            activeClass: "active",
+            index: 0
+        });
+        $("#tabs1").newTabs({
+            activeClass: "active",
+            index: 1
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+/**
+ * Created by Administrator on 2017/8/24.
+ */
+
+$(document).ready(function () {
+
+    $('.company-icon').bind('click',function () {
+        $('.company-nav-box').toggle();
+    });
+
+    $('.has-nav').click(function () {
+        var that=$(this);
+        var arrow=that.find('.company-list-icon');
+        if (arrow.hasClass('down')){
+            arrow.removeClass('down').addClass('up');
+        }else if (arrow.hasClass('up')){
+            arrow.removeClass('up').addClass('down');
+        }
+        var childNav=that.siblings('.company-menu');
+        childNav.stop().slideToggle();
+
+
+
+    });
+
+});
