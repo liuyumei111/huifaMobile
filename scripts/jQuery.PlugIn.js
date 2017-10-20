@@ -15,7 +15,7 @@
 
 			options.currIndexCallBack && options.currIndexCallBack(index);
 		})
-	}
+	};
 
 	//tabs固定顶栏
 	$.fn.scrollFixed = function (className) {
@@ -32,7 +32,7 @@
 				flag = true;
 			}
 		})
-	}
+	};
 
 
 
